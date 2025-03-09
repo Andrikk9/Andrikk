@@ -1,0 +1,83 @@
+.meet {
+    height: 400px;
+    margin-top: 95px;
+        &__title {
+        text-align: center;
+    }
+    &-profile {
+        position: relative;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        margin-top: 35px;
+        height: 237px;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 80px;
+            right: 66px;
+            width: 35px;
+            height: 35px;
+            border-radius: 100%;
+            border: solid 5px white;
+            background-color: #f26667;
+            background-image: url('../img/icons/Musik_shape.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        // &:nth-child(1)::before {
+        //     background-color: #19D4CA;
+        // }
+        &__avatar {
+            border-radius: 100%;
+            width: 120px;
+            height: 120px;
+        }
+        &__name {
+            font-size: 14px;
+            font-weight: 700;
+            margin-top: 23px;
+        }
+        &__interes {
+            text-align: center;
+            font-size: 14px;
+            font-weight: 300;
+            margin-top: 27px;
+        }
+    }
+    .round_2 {
+        &::before {
+            background-color: #19D4CA;
+            background-image: url('../img/icons/Art_shape.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+    .round_3 {
+        &::before {
+            background-color: #FFA710;
+            background-image: url('../img/icons/Camera_shape.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+    .round_4 {
+        &::before {
+            background-color: #667DF3;
+            background-image: url('../img/icons/Plane_shape.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+        } 
+    }
+    &-button {
+        width: 180px;
+        margin-top: 36px;
+        color: #FF4E50;
+        border: 2px solid #FF4E50;
+        transition: all 0.4s;
+        &:hover {
+            background: #FF4E50;
+            color: #fff;
+        }
+    }
+}

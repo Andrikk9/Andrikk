@@ -1,0 +1,52 @@
+.promo {
+    position: relative;
+    padding: 40px 0;
+    height: 700px;
+    background: url('../img/backgrounds/Background.jpg') no-repeat 50%/cover;
+    &__header {
+        color: #fff;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    &__buttons {
+        display: flex;
+        width: 180px;
+        flex-direction: row;
+        justify-content: space-between;
+        &-btn {
+            display: block;
+            width: 90px;
+            height: 35px;
+            font-size: 14px;
+            font-weight: 300;
+            color:#fff;
+            border: none;
+            background: none;
+            cursor: pointer;
+        }    
+    }
+    &__subheader {
+        display: block;
+        margin-top: 150px;
+        h3 {
+            font-size: 52px;
+            font-weight: 700;
+            line-height: 63px;
+            color: #fff;
+            text-align: center;
+        }
+        h4 {
+            margin-top: 28px;
+            font-size: 24px;
+            font-weight: 300;
+            color:#fff;
+            text-align: center;
+        }
+    }
+    &__button {
+        margin-top: 33px;
+        width: 225px;
+        color: #fff;
+        background: #FF4E50;
+    }
+}    

@@ -1,0 +1,26 @@
+@import url('libs/_bootstrap-grid.min.scss');
+@import url('libs/_bootstrap-reboot.min.scss');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+@import 'base/text.edits';
+@import 'base/_btn.scss';
+
+* {
+    font-family: 'Montserrat',serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/promo';
+@import 'blocks/Dreamshare';
+@import 'blocks/meet';
+@import 'blocks/activities';
+@import 'blocks/create';
+@import 'blocks/footer';
+@import 'blocks/media';

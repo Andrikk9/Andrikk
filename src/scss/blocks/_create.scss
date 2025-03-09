@@ -1,0 +1,48 @@
+.create {
+    padding: 95px 0 0 0;
+    &__title {
+        text-align: center;
+    }
+    &__subtitle {
+        margin-top: 46px;
+        font-size: 18px;
+        text-align: center;
+        font-weight: 300;
+    }
+    &__form {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 25px;
+        height: 40px;
+        width: 482px;
+        input {
+            display: block;
+            border: 1px solid #D4D4D4;
+            border-radius: 4px;
+            padding: 0 0 0 14px;
+            width: 300px;
+            height: 100%;
+        }
+        .btn {
+            background: #FF4E50;
+            width: 173px;
+            margin: 0;
+            color: #fff;
+            transition: all 0.4s;
+            &:hover {
+                background: none;
+                border: 2px solid;
+                border-color: #FF4E50;
+                color: #FF4E50;
+            }
+        }
+    }
+}
+.divider {
+    display: block;
+    margin-top: 100px;
+    height: 1px;
+    width: 100%;
+    background:#FF4E50;
+}

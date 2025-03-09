@@ -1,0 +1,62 @@
+.Dreamshare {
+    height: 650px;
+    padding-top: 95px;
+    &__title {
+        text-align: center;
+    }
+    &-card {
+        position: relative;
+        display: block;
+        margin-top: 35px;
+        height: 475px;
+        transition: all 0.8s;
+        &:hover img {
+            filter:brightness(70%)
+        }
+        img {
+            width: 100%;
+            transition: all 0.8s;
+        }
+        &__item:hover &__subtitle {
+            margin-top: 17px;
+        }
+        &__item:hover &__descr {
+            margin-top: 17px;
+        }
+        &__item {
+            position: absolute;
+            top: 0;
+            display: flex;
+            padding: 0 25px 20px 25px;
+            justify-content: flex-end;
+            flex-direction: column;
+            width: 100%;
+            height: 475px;
+            transition: all 0.8s;
+            &:hover {
+                padding-bottom: 57px;
+            }
+        }
+        &__step {
+            width: 70px;
+            height: 20px;
+            background: #FF4E50;
+            color: #fff;
+            font-size: 12px;
+            font-weight: 300px;
+            border-radius: 10px;
+            text-align: center;
+            line-height: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        &__subtitle {
+            margin-top: 25px;
+            transition: all 0.8s;
+        }
+        &__descr {
+            margin-top: 25px;
+            transition: all 0.8s;
+        } 
+    }    
+}

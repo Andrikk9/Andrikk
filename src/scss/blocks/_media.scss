@@ -1,0 +1,71 @@
+@media (max-width: 769px) {
+    .Dreamshare {
+        height: 461px;
+        &-card {
+            height: 400px;
+            &__item {
+                height: 100%;
+            }
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+    .meet {
+        padding: 115px 0 0 0;
+        height: 605px;
+        &-profile::before {
+            content: '';
+            right: 104px; 
+        } 
+    }
+    .activities {
+        padding: 165px 0 0 0;
+        &-wrapper {
+            grid-template: repeat(3, 310px) / repeat(3, 236px);
+        }
+    }
+    .create {
+        padding: 285px 0 0 0;
+    }
+    .footer {
+        &__wrapper {
+            width: 100%;
+            &-name {
+                margin-right: 53px;
+            }
+            &-list {
+                margin-left: 56px;
+            }
+        }
+    }
+}
+@media (max-width: 321px) {
+    .promo {
+        
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .container {
+            width: 300px;
+        }     
+        &__buttons {
+            position: relative;
+            top: -125px;
+            margin: 0 auto;
+        }
+        &__header {
+            margin-top: 95px;
+            text-align: center;
+        }
+        &__subheader {
+            h3 {
+                margin-top: 27px;
+                font-size: 30px;
+                line-height: 36px
+            }
+        }
+    }
+}
