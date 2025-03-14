@@ -43,7 +43,7 @@
 }
 @media (max-width: 321px) {
     .promo {
-        
+        height: 550px;
         padding: 20px 0;
         display: flex;
         flex-direction: column;
@@ -61,10 +61,85 @@
             text-align: center;
         }
         &__subheader {
+            margin-top: -7px;
             h3 {
                 margin-top: 27px;
                 font-size: 30px;
                 line-height: 36px
+            }
+        }
+    }
+    .Dreamshare {
+        height: 781px;
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 300px;
+        }
+        &__title {
+            font-size: 22px;
+            width: 300px;
+        }
+        &-card {
+            height: 240px;
+            width: 300px;
+            &__item {
+                position: none;
+                height: 240px;
+                width: 300px;
+            }
+            &__subtitle {
+                margin-top: 18px;
+            }
+            &__descr {
+                margin-top: 18px;
+            } 
+        }
+    }
+    .meet {
+        height: 1000px;
+        .container {
+            width: 300px;
+        }
+        .row {
+            display: flex;
+            flex-direction: column;
+        }
+        &-profile {
+            margin-top: 15px;
+            &::before {
+                right: 75px;
+            }
+        }
+        &__title {
+            font-size: 22px;
+        }
+        &-button {
+            margin-top: 25px;
+        }
+    }
+    .activities {
+        margin-top: 125px;
+        .container {
+            align-items: center;
+            width: 300px;
+        }
+        &__title {
+            font-size: 22px;
+        }
+        &-wrapper {
+            width: 300px;
+            grid-template: repeat(7, 120px) / repeat(1, 300px);
+            &__ideas {
+                .horizontal {
+                    grid-row: 5/6;
+                    grid-column: 0/1;
+                }
+                .horizontal2 {
+                    grid-row: 6/7;
+                    grid-column: 0/1;
+                }
             }
         }
     }
